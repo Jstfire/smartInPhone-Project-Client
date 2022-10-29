@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --color1: #434247;
+  --color2: #5C5A66;
+  --color3: #FEBC68;
+  --color4: #FCDB8C;
+  --color5: #1F9589;
+  --color6: #41C0B5;
+}
+
+* {
+  font-family: 'montserrat', sans-serif;
+}
+
+.card{
+    border:none;
+
+    position:relative;
+    overflow:hidden;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.card:before{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:4px;
+    height:100%;
+    background-color:#E1BEE7;
+    transform:scaleY(1);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+
+.card:after{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:4px;
+    height:100%;
+    background-color:var(--color2);
+    transform:scaleY(0);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+
+.card:hover::after{
+    transform:scaleY(1);
+}
+
+
+.fonts{
+    font-size:11px;
+}
+
+.social-list{
+    display:flex;
+    list-style:none;
+    justify-content:center;
+    padding:0;
+}
+
+.social-list li{
+    padding:10px;
+    color:var(--color2);
+    font-size:19px;
+}
+
+
+.buttons button:nth-child(1){
+       border:1px solid var(--color2) !important;
+       color:var(--color2);
+       height:40px;
+}
+
+.buttons button:nth-child(1):hover{
+       border:1px solid var(--color2) !important;
+       color:#fff;
+       height:40px;
+       background-color:var(--color2);
+}
+
+.buttons button:nth-child(2){
+       border:1px solid var(--color2) !important;
+       background-color:var(--color2);
+       color:#fff;
+        height:40px;
+}

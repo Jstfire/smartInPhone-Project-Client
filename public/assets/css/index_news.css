@@ -1,0 +1,37 @@
+.maintxt {
+    background-size: cover;
+    width: 100%;
+}
+.maintxt img {
+    width: 100%;
+}
+.childtxt {
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 85%;
+    /* left: 100%; */
+    transform: translate(-0%, -70%);
+    font-family: 'Sora', sans-serif;
+}
+.childtxt h1:hover{
+    color: darkgray;
+}
+
+.container h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 3%;
+}
+
+.childtxt a {
+    text-decoration: none;
+    font-size: 200%;
+    color: white;
+}
+
+.childtxt a:hover {
+    color: rgb(156, 155, 175);
+}

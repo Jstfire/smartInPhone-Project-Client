@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --color1: #434247;
+    --color2: #5C5A66;
+    --color3: #FEBC68;
+    --color4: #FCDB8C;
+    --color5: #1F9589;
+    --color6: #41C0B5;
+}
+
+body {
+    background-color: var(--color1);
+    background-image: linear-gradient(to bottom, var(--color2), var(--color5) 300px, #e4e4e4 300px, #e4e4e4)!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    font-family: 'montserrat', sans-serif;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.user_card {
+    height: 470px;
+    width: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+.login_name_wrapper {
+    height: 20%!important;
+    min-height: 135px;
+    margin-bottom: auto;
+    margin-top: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFF;
+    font-size: 35px;
+    font-weight: bold;
+    transform: translateY(-20%);
+}
+
+.login_name_wrapper a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.login_logo_container {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -75px;
+    border-radius: 50%;
+    background: var(--color2);
+    padding: 10px;
+    text-align: center;
+}
+.login_logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form_container {
+    margin-top: 100px;
+}
+.login_btn {
+    width: 100%;
+    background: var(--color2) !important;
+    color: white !important;
+}
+.login_btn:hover {
+    background: var(--color6)!important;
+}
+
+.login_container {
+    padding: 0 2rem;
+}
+.input-group-text {
+    background: var(--color2) !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input_user, .input_pass:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: var(--color2) !important;
+}
+.input-group-text {
+    height: 38px;
+}
+
+
+.d-flex.justify-content-center.links {
+    transform: translateY(-30%);
+}
